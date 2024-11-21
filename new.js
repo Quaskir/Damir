@@ -20,16 +20,17 @@ document.querySelectorAll('.accordion-button').forEach(button => {
   })
 
 
-  const ggg = 1;
-  const gg1 = [1, 2, 3]
-  const gg2 = item()
-  gg2.name = 'igor';
-  gg2.age = 23;
+
 
   const links = document.querySelectorAll('#links')
-  links.map((el)
-    
-  )
-  links()
+  function showLinks(){
+
+  }
+
+ 
+  showLinks = () =>{
+    links.map()
+  }
+  console.log(links)
 
 
