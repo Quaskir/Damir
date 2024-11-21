@@ -1,20 +1,5 @@
 
-const hi=1+2;
-console.log(hi)
-const arr = [1,2,3]
-console.log(arr);
 
-const person = {
-  name: "John",
-  age: 30
-};
-console.log(person)
-
-
-    function add(a, b) {
-        return a + b;
-}
-console.log(add(3, 5));
 
 document.querySelectorAll('.accordion-button').forEach(button => {
     button.addEventListener('click', () => {
@@ -33,3 +18,18 @@ document.querySelectorAll('.accordion-button').forEach(button => {
       this.classList.toggle('active')
       burgerContent.classList.toggle('active')
   })
+
+
+  const ggg = 1;
+  const gg1 = [1, 2, 3]
+  const gg2 = item()
+  gg2.name = 'igor';
+  gg2.age = 23;
+
+  const links = document.querySelectorAll('#links')
+  links.map((el)
+    
+  )
+  links()
+
+
